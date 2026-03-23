@@ -28,3 +28,10 @@
     "typescript": "^5.3.3"
   }
 }
+"scripts": {
+  "start": "node build/http-server.js",
+  "build": "tsc"
+},
+"dependencies": {
+  "express": "^4.18.0"
+}
